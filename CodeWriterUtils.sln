@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWriterUtils", "CodeWriterUtils\CodeWriterUtils.csproj", "{8B70E446-2BC6-4577-BA8A-B57620818B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWriterUtils.Tests", "CodeWriterUtils.Tests\CodeWriterUtils.Tests.csproj", "{F2C1A82E-D8FB-409E-B279-6D27BC51FED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutionItems", ".solutionItems", "{A1CEC275-1A0C-40CF-B35C-EAFDB3F3F4C1}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B70E446-2BC6-4577-BA8A-B57620818B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B70E446-2BC6-4577-BA8A-B57620818B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B70E446-2BC6-4577-BA8A-B57620818B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B70E446-2BC6-4577-BA8A-B57620818B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C1A82E-D8FB-409E-B279-6D27BC51FED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C1A82E-D8FB-409E-B279-6D27BC51FED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C1A82E-D8FB-409E-B279-6D27BC51FED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C1A82E-D8FB-409E-B279-6D27BC51FED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
