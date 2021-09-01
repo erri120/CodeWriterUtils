@@ -33,6 +33,14 @@ namespace CodeWriterUtils
             WriteNewLine();
         }
 
+        public void WriteLines(params string[] lines)
+        {
+            foreach (var line in lines)
+            {
+                WriteLine(line);
+            }
+        }
+
         public BracketStatement UseBrackets(string line)
         {
             WriteLine(line);
