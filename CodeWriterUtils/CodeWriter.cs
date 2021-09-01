@@ -41,6 +41,11 @@ namespace CodeWriterUtils
             }
         }
 
+        public void WriteNewLine()
+        {
+            _sb.Append(_settings.NewlineString);
+        }
+
         public BracketStatement UseBrackets(string line)
         {
             WriteLine(line);
@@ -51,12 +56,6 @@ namespace CodeWriterUtils
         internal void WriteIndentation()
         {
             _sb.Append(' ', _currentIndentationLevel * _settings.Indentation);
-        }
-
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        internal void WriteNewLine()
-        {
-            _sb.Append(_settings.NewlineString);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
